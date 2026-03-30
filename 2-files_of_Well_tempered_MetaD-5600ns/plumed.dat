@@ -1,0 +1,35 @@
+RESTART
+MOLINFO STRUCTURE=clean.pdb
+WHOLEMOLECULES ENTITY0=1-666
+
+c1: CENTER ATOMS=1,5,22,24,26,39  #N, CA, C atoms of resid1-2
+c2: CENTER ATOMS=635,637,652,654,656,664  #N, CA, C atoms of resid40-41
+
+d1: DISTANCE ATOMS=c1,c2 NOPBC
+d2: DISTANCE ATOMS=109,201 NOPBC
+#C atoms of resid 7 and 12
+
+# Add restraints to keep the d1 within [0.5, 10.0] nm
+#https://www.plumed.org/doc-v2.9/user-doc/html/_u_p_p_e_r__w_a_l_l_s.html
+
+uwall: UPPER_WALLS ARG=d1 AT=10.0 KAPPA=10000 EXP=2 EPS=1 OFFSET=0
+lwall: LOWER_WALLS ARG=d1 AT=0.1 KAPPA=10000 EXP=2 EPS=1 OFFSET=0
+
+METAD ...
+  LABEL=metad
+  ARG=d1,d2
+  PACE=500
+  HEIGHT=1.0
+  BIASFACTOR=8
+  SIGMA=0.2,0.2
+  TEMP=310.15
+  FILE=HILLS
+  GRID_MIN=0.2,0.1
+  GRID_MAX=10.1,5.0
+  GRID_SPACING=0.01,0.005
+  CALC_RCT
+... METAD
+
+#output the collective variales during the simulation
+PRINT ARG=d1,d2,metad.bias,metad.rct,uwall.bias FILE=COLVAR STRIDE=100
+
