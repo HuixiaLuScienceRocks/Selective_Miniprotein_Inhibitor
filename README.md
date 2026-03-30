@@ -16,7 +16,7 @@
 **More details:**
 
 1. Initial systems used to conduct MD simulations are stored in Folder: **0-initial-systems**
-2. In the Folder: **toy_data** you will find an example of aaa.txt which is part of the data set I have used to construct MSMs for system KRas4B-G12D-GTP (paper in preparation). I couldn't upload the whole data because of the size limit.
-3. A walk through tutorial of how to construct MSMs is shown in file: **msm-analysis.ipynb**
-4. PDB files of KRas4B-GTP and KRas4B-GDP were extracted from Macrostates by PyEMMA after constructing MSMs, the corresponding results are installed in Folders: **kras4b-g12d-gtp and kras4b-g12d-gdp**.
-5. Final equilibrated structures of complex of Src-KRas in its two nucleotide states, obtained from 200 ns molecular dynamics simulations performed with NAMD and initialized from HADDOCK2.4 docking results for KRas-Src macrostates with HADDOCK scores above 130, are provided in the **HADDOCK_results folder**.
+2. Results of Principle Components Analysis (PCA) of the standard MD productions runs cna be found in the Folder: **1-PCA_analysis_6000ns_standard_MD**, together with the notebook script for performing PCA.
+3. Essential files for performing the Well-tempered MetaDynamcis simulation are shown in file: **2-files_of_Well_tempered_MetaD-5600ns**, the related results will be presented in the manuscript.
+4. HADDOCK2.4 was used to perform the docking analysis and the corresponding results are provided in Folder: **3-Docking_analysis**.
+5. Final equilibrated structures of the complexes of pepide-KRas (G12D and wild-type) in its two nucleotide states, obtained from 500 ns molecular dynamics simulations for each system. Binding energies of peptide and KRas of all systems considered in this work using MMPBSA are provided in the **4-binding_selectivity**.
