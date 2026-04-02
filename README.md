@@ -1,4 +1,4 @@
-## In this repository, we provide essential files for a manuscript: "Structure-uided De Novo Design of a Selective Miniprotein Inhibitor for KRas4B G12D."
+## In this repository, we provide essential files for a manuscript: "Structure-guided De Novo Design of a Selective Miniprotein Inhibitor for KRas4B-G12D."
 
 #### Simulating packages used in this work for conducting MD simulations:
 
