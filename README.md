@@ -6,6 +6,7 @@
 
 # Highlights from this work:
 
+In this work, we developed a protocol that combines conventional MD simulations with advanced sampling method at the microsecond scale (35.6 μs in total) across multiple conditions to investigate the selective binding of the miniprotein to oncogenic KRas4B, but not the wild-type form.
 
 
 
