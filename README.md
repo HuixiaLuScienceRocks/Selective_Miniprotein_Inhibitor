@@ -9,11 +9,6 @@
 In this work, we developed a protocol that combines conventional MD simulations with advanced sampling method at the microsecond scale (35.6 μs in total) across multiple conditions to investigate the selective binding of the miniprotein to oncogenic KRas4B, but not the wild-type form.
 
 
-
-```
-####python -m pip install sklearn
-```
-
 **More details:**
 
 1. Initial systems used to conduct MD simulations are stored in Folder: **0-initial-systems**
