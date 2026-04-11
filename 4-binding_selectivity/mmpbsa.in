@@ -1,0 +1,11 @@
+# Sample input file for GB calculation
+
+&general
+sys_name="wt-gtp-c-3",
+startframe=2, interval=10,
+PBRadii=2,
+temperature=310,
+/
+&pb
+istrng=0.15, fillratio=4.0 
+/
