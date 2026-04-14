@@ -1,0 +1,13 @@
+&general
+sys_name="g12d-gtp-a-1",
+startframe=2, interval=10,
+PBRadii=2,
+temperature=310,
+/
+&pb
+istrng=0.15, fillratio=4.0
+/
+&decomp
+idecomp=2,
+dec_verbose=3,
+/
