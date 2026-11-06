@@ -1,4 +1,4 @@
-## In this repository, we provide essential files for a manuscript: "Structure-guided Design of a Miniprotein Inhibitor for KRas4B-G12D."
+## In this repository, we provide essential files for a manuscript: "Structure-Guided Design of a c-Src-Inspired Miniprotein Inhibitor Targeting KRAS4B-G12D."
 
 #### Simulating packages used in this work for conducting MD simulations:
 
