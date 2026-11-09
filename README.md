@@ -1,4 +1,6 @@
-## In this repository, we provide essential files for a manuscript: "Structure-Guided Design of a c-Src-Inspired Miniprotein Inhibitor Targeting KRAS4B-G12D."
+## In this repository, we provide essential files for a manuscript: "Structure-Guided Design of a c-Src-Inspired Miniprotein Inhibitor Targeting KRas4B-G12D."
+
+by Huixia Lu*, Jordi Faraudo, and Jordi Marti
 
 #### Simulating packages used in this work for conducting MD simulations:
 
@@ -6,8 +8,11 @@
 
 # Highlights from this work:
 
-In this work, we developed a protocol that combines conventional MD simulations with advanced sampling method at the microsecond scale (35.6 μs in total) across multiple conditions to investigate the selective binding of the miniprotein to oncogenic KRas4B, but not the wild-type form.
-
+- Enhanced sampling identifies two distinct low-energy conformational states (A and C) of the 41-residue KRas-targeting miniprotein.
+- Miniprotein state A exhibits preferential binding to KRas4B-G12D over wild-type KRas4B, independent of nucleotide-bound state.
+- Differential KRas recognition is primarily mediated by interactions with the switch regions rather than direct contacts with the G12D mutation site.
+- The miniprotein N-terminal region (residues 1-23) plays a key role in stabilizing the G12D-associated binding interface.
+- Mutation-induced changes in the KRas conformational landscape promote an indirect, ensemble-mediated mechanism of miniprotein recognition.
 
 **More details:**
 
