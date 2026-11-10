@@ -9,7 +9,7 @@ by Huixia Lu*, Jordi Faraudo, and Jordi Marti
 # Highlights from this work:
 
 - Enhanced sampling identifies two distinct low-energy conformational states (A and C) of the 41-residue KRas-targeting miniprotein.
-- Miniprotein state A exhibits preferential binding to KRas4B-G12D over wild-type KRas4B, independent of nucleotide-bound state.
+- Miniprotein predominent state A exhibits preferential binding to KRas4B-G12D over wild-type KRas4B, independent of nucleotide-bound state.
 - Differential KRas recognition is primarily mediated by interactions with the switch regions rather than direct contacts with the G12D mutation site.
 - The miniprotein N-terminal region (residues 1-23) plays a key role in stabilizing the G12D-associated binding interface.
 - Mutation-induced changes in the KRas conformational landscape promote an indirect, ensemble-mediated mechanism of miniprotein recognition.
